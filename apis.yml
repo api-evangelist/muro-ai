@@ -1,7 +1,29 @@
 aid: muro-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/muro-ai.png
 name: Muro AI
-description: Muro AI is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Muro AI is an early-stage construction-technology startup building PrecOS, a
+  pre-construction operating system marketed as a pre-con manager's AI assistant
+  that carries general contractors from scoping through handover. The platform
+  applies domain-adapted large language models, image models, agentic workflows,
+  RAG pipelines, and document/plan parsing (OCR and computer vision) to automate
+  bid comparison, estimation, bill-of-materials, and budget updates for teams
+  that still run on spreadsheets. Muro is backed by Techstars and integrates with
+  industry tools such as Procore. As of this profiling the company publishes a
+  marketing site, a blog, and careers pages, but exposes no public API, developer
+  portal, SDKs, or technical documentation, so this record captures identity and
+  a domain-security probe rather than an API surface.
 url: https://raw.githubusercontent.com/api-evangelist/muro-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Construction
+- Construction Technology
+- Preconstruction
+- Artificial Intelligence
+- Machine Learning
+- Agentic AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,14 @@ maintainers:
 common:
 - type: Website
   url: https://muro.ai/
+- type: Blog
+  url: https://muro.ai/blog
+- type: GitHubOrganization
+  url: https://github.com/Muro-AI
+- type: DomainSecurity
+  url: security/muro-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
