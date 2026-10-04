@@ -51,8 +51,8 @@ tags:
 - Construction Technology
 - Preconstruction
 - Artificial Intelligence
-- Machine-Learning
-- Agentic AI
+- Machine Learning
+- AI Agents
 tags_raw:
 - Company
 - Construction
@@ -61,6 +61,7 @@ tags_raw:
 - Artificial Intelligence
 - Machine Learning
 - Agentic AI
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
